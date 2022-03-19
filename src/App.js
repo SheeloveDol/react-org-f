@@ -1,5 +1,6 @@
 
 import './App.css';
+import { Container } from './components/container/Container'
 
 function App() {
 
@@ -14,9 +15,9 @@ function App() {
 
 
   return (
-    <div>
+    <Container>
       <h1>Hello World</h1>
-    </div>
+    </Container>
   );
 }
 
