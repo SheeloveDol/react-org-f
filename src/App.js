@@ -1,6 +1,7 @@
 
 import './App.css';
 import { Container } from './components/container/Container'
+import { SearchBar } from './components/search-bar/SearchBar'
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <Container>
-      <h1>Hello World</h1>
+      <SearchBar/>
     </Container>
   );
 }
